@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Sujal-ap/demon-slayer.git/static/css/main.f03c6388.css",
+    "main.js": "/Sujal-ap/demon-slayer.git/static/js/main.d85433cb.js",
+    "static/js/453.72b83a0f.chunk.js": "/Sujal-ap/demon-slayer.git/static/js/453.72b83a0f.chunk.js",
+    "index.html": "/Sujal-ap/demon-slayer.git/index.html",
+    "main.f03c6388.css.map": "/Sujal-ap/demon-slayer.git/static/css/main.f03c6388.css.map",
+    "main.d85433cb.js.map": "/Sujal-ap/demon-slayer.git/static/js/main.d85433cb.js.map",
+    "453.72b83a0f.chunk.js.map": "/Sujal-ap/demon-slayer.git/static/js/453.72b83a0f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f03c6388.css",
+    "static/js/main.d85433cb.js"
+  ]
+}
