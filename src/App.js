@@ -1,18 +1,29 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './App.css';
-import CharacterList from './components/CharacterList';
-import SeasonList from './components/SeasonList';
+import HomePage from './pages/home.js';
+import Preloader from './components/Preloader.js';
 
 function App() {
+  const [loading, setLoading] = useState(false);
+  const [preloading, setPreloading] = useState(false);
+
+  const handleEnter = () => {
+    setPreloading(true);
+    setTimeout(() => {
+      setPreloading(false);
+      setLoading(true);
+    }, 6000); // Preloader duration
+  };
+
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Anime Series Info</h1>
-      </header>
-      <main>
-        <CharacterList />
-        <SeasonList />
-      </main>
+      {!loading && !preloading && (
+        <div className="enter-screen">
+          <button className="enter-home-button" onClick={handleEnter}>Enter</button>
+        </div>
+      )}
+      {preloading && <Preloader />}
+      {loading && <HomePage />}
     </div>
   );
 }
