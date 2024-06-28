@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Sujal-ap/demon-slayer.git/static/css/main.d547f786.css",
-    "main.js": "/Sujal-ap/demon-slayer.git/static/js/main.16796447.js",
-    "static/js/453.72b83a0f.chunk.js": "/Sujal-ap/demon-slayer.git/static/js/453.72b83a0f.chunk.js",
-    "static/media/demon-slayer-logo2.png": "/Sujal-ap/demon-slayer.git/static/media/demon-slayer-logo2.37757ece0a50a3fdcaec.png",
-    "static/media/demon-slayer-preloader.mp3": "/Sujal-ap/demon-slayer.git/static/media/demon-slayer-preloader.0d3c5db04abca6598e59.mp3",
-    "index.html": "/Sujal-ap/demon-slayer.git/index.html",
-    "main.d547f786.css.map": "/Sujal-ap/demon-slayer.git/static/css/main.d547f786.css.map",
-    "main.16796447.js.map": "/Sujal-ap/demon-slayer.git/static/js/main.16796447.js.map",
-    "453.72b83a0f.chunk.js.map": "/Sujal-ap/demon-slayer.git/static/js/453.72b83a0f.chunk.js.map"
+    "main.css": "/demon-slayer/static/css/main.d547f786.css",
+    "main.js": "/demon-slayer/static/js/main.13bc7e30.js",
+    "static/js/453.72b83a0f.chunk.js": "/demon-slayer/static/js/453.72b83a0f.chunk.js",
+    "static/media/demon-slayer-logo2.png": "/demon-slayer/static/media/demon-slayer-logo2.37757ece0a50a3fdcaec.png",
+    "static/media/demon-slayer-preloader.mp3": "/demon-slayer/static/media/demon-slayer-preloader.0d3c5db04abca6598e59.mp3",
+    "index.html": "/demon-slayer/index.html",
+    "main.d547f786.css.map": "/demon-slayer/static/css/main.d547f786.css.map",
+    "main.13bc7e30.js.map": "/demon-slayer/static/js/main.13bc7e30.js.map",
+    "453.72b83a0f.chunk.js.map": "/demon-slayer/static/js/453.72b83a0f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d547f786.css",
-    "static/js/main.16796447.js"
+    "static/js/main.13bc7e30.js"
   ]
 }
