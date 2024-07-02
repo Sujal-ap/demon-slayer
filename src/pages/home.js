@@ -1,42 +1,26 @@
 import React from 'react';
-import Card from '../components/Card.js';
-
-const characters = [
-  {
-    name: 'Tanjiro',
-    description: 'Breathing Technique: Water/Sun',
-    className: 'tanjiro',
-    imageUrl: 'https://namratapdrjs.netlify.app/scrolling-animations/assets-card/tanjiro.png'
-  },
-  {
-    name: 'Nezuko',
-    description: 'Demon: Can do blood magic.',
-    className: 'nezuko',
-    imageUrl: 'https://namratapdrjs.netlify.app/scrolling-animations/assets-card/nezuko.jpg'
-  },
-  {
-    name: 'Zenitsu',
-    description: 'Breathing Technique: Thunder',
-    className: 'zenitsu',
-    imageUrl: 'https://namratapdrjs.netlify.app/scrolling-animations/assets-card/zenitsu.jpg'
-  },
-];
+import { Link } from 'react-router-dom';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
+import '../styles/home.css';
 
 const HomePage = () => {
   return (
-    <div>
-      <header className="App-header">
-        <h1>DEMON SLAYER</h1>
-      </header>
-      <main>
+    <div className='home'>
+      <Header />
+      <main style={{ paddingTop: '200px' }}>
         <div className="container">
-          <div className="cards">
-            {characters.map((character, index) => (
-              <Card key={index} character={character} />
-            ))}
+          <div className="links">
+            <Link to="/characters" className="characters-link">
+              Characters
+            </Link>
+            <Link to="/seasons" className="seasons-link">
+              Seasons
+            </Link>
           </div>
         </div>
       </main>
+      <Footer />
     </div>
   );
 };

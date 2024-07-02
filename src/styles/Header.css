@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&family=Love+Light&display=swap');
+
+.App-header {
+    background-image: url('../images/head_bg.png'); /* Path to your header image */
+    background-size: cover;
+    font-family: "BhuTuka Expanded One";
+    background-position: center;
+    height: 250px; /* Adjust height as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw; /* Ensures the header spans the entire viewport width */
+    margin-left: calc(50% - 50vw); /* Center the header horizontally */
+    margin-right: calc(50% - 50vw); /* Center the header horizontally */
+    position: sticky; /* Stick to the top when scrolling */
+    top: -100px; /* Push the header up initially to avoid overlap */
+    z-index: 10; /* Ensure the header is above other content */
+    transition: top 0.3s ease; /* Smooth transition for the header */
+  }
+  
+.App-header h1 {
+    color: #fff;
+    font-size: 2.5rem;
+    text-align: center; /* Center align the text */
+    transform: translateY(-40px); /* Adjust this value to move the h1 up or down */
+  }
+  
+.fixed {
+    top: 0; /* Bring the header to the top when fixed */
+  }
+  

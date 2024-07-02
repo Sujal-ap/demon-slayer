@@ -1,0 +1,24 @@
+.App-footer {
+  background-image: url('../images/foot_bg.webp'); /* Path to your footer image */
+  background-size: cover;
+  background-position: center top; /* Ensure background is centered vertically */
+  padding: 100px; /* Adjust padding as needed */
+  width: 100vw; /* Ensures the footer spans the entire viewport width */
+  height: 200px; /* Initial height of the footer */
+  position: fixed; /* Fixed position to stay at the bottom */
+  bottom: 0; /* Stick to the bottom of the viewport */
+  left: 0; /* Ensure footer starts from left edge */
+  right: 0; /* Ensure footer ends at right edge */
+  pointer-events: none; /* Allow mouse events to pass through */
+  opacity: 01; /* Adjust opacity as needed */
+  transition: height 0.3s ease; /* Smooth transition for height change */
+}
+
+.App-footer img {
+  max-width: 100%;
+}
+
+.expanded {
+  height: 400px; /* Expand footer to full viewport height */
+  padding: 20px; /* Adjust padding for expanded state */
+}
