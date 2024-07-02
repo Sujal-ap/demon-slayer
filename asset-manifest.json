@@ -1,17 +1,36 @@
 {
   "files": {
-    "main.css": "/demon-slayer/static/css/main.d547f786.css",
-    "main.js": "/demon-slayer/static/js/main.13bc7e30.js",
+    "main.css": "/demon-slayer/static/css/main.442fccdb.css",
+    "main.js": "/demon-slayer/static/js/main.60fe4213.js",
     "static/js/453.72b83a0f.chunk.js": "/demon-slayer/static/js/453.72b83a0f.chunk.js",
-    "static/media/demon-slayer-logo2.png": "/demon-slayer/static/media/demon-slayer-logo2.37757ece0a50a3fdcaec.png",
+    "static/media/tengen.jpg": "/demon-slayer/static/media/tengen.7b6f81fb3a058aefa1fa.jpg",
+    "static/media/rengoku.jpg": "/demon-slayer/static/media/rengoku.74f58d342bba78bfc1f1.jpg",
+    "static/media/entertainment_district.jpg": "/demon-slayer/static/media/entertainment_district.404be2c5c3946f86d9ec.jpg",
+    "static/media/hashira_training.jpg": "/demon-slayer/static/media/hashira_training.8685678b686d0eff7a80.jpg",
+    "static/media/swordsmith_village.jpg": "/demon-slayer/static/media/swordsmith_village.e7771daf63dfbf8be427.jpg",
+    "static/media/unwavering_resolve.jpg": "/demon-slayer/static/media/unwavering_resolve.055a85ece97a1b4991f6.jpg",
+    "static/media/muzan.jpg": "/demon-slayer/static/media/muzan.60c2abac606bc4134bad.jpg",
+    "static/media/tanjiro.jpg": "/demon-slayer/static/media/tanjiro.f5afa29aa3ea377146c8.jpg",
+    "static/media/nezuko.jpg": "/demon-slayer/static/media/nezuko.0bdab2faed8a98f06a92.jpg",
+    "static/media/foot_bg.webp": "/demon-slayer/static/media/foot_bg.bd34b2f85c2efac45712.webp",
+    "static/media/demon-slayer-logo.png": "/demon-slayer/static/media/demon-slayer-logo.37757ece0a50a3fdcaec.png",
+    "static/media/inoske.jpg": "/demon-slayer/static/media/inoske.8bd9ba8fea7dbffaab87.jpg",
+    "static/media/yorichi.jpg": "/demon-slayer/static/media/yorichi.db6d35dc03f2490997f8.jpg",
     "static/media/demon-slayer-preloader.mp3": "/demon-slayer/static/media/demon-slayer-preloader.0d3c5db04abca6598e59.mp3",
+    "static/media/head_bg.png": "/demon-slayer/static/media/head_bg.893ff44d452a0b7d2a7b.png",
+    "static/media/kanao.jpg": "/demon-slayer/static/media/kanao.e421418ade1eb36cb21a.jpg",
+    "static/media/sakonji.jpg": "/demon-slayer/static/media/sakonji.c492d1131e627527a7a1.jpg",
+    "static/media/giyu.jpg": "/demon-slayer/static/media/giyu.a8671ae956516238a629.jpg",
+    "static/media/zenitsu.jpg": "/demon-slayer/static/media/zenitsu.265cdb7f1bed2013928b.jpg",
+    "static/media/corner-image.png": "/demon-slayer/static/media/corner-image.3589a9c9235df47f82b5.png",
+    "static/media/kocho.jpg": "/demon-slayer/static/media/kocho.444cc19bd3877b9b329d.jpg",
     "index.html": "/demon-slayer/index.html",
-    "main.d547f786.css.map": "/demon-slayer/static/css/main.d547f786.css.map",
-    "main.13bc7e30.js.map": "/demon-slayer/static/js/main.13bc7e30.js.map",
+    "main.442fccdb.css.map": "/demon-slayer/static/css/main.442fccdb.css.map",
+    "main.60fe4213.js.map": "/demon-slayer/static/js/main.60fe4213.js.map",
     "453.72b83a0f.chunk.js.map": "/demon-slayer/static/js/453.72b83a0f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d547f786.css",
-    "static/js/main.13bc7e30.js"
+    "static/css/main.442fccdb.css",
+    "static/js/main.60fe4213.js"
   ]
 }
