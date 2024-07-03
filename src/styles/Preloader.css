@@ -14,7 +14,8 @@
 }
 
 .preloader-logo {
-  width: 300px; /* Adjust as needed */
+  width: 60vw; /* Adjust as needed */
+  max-width: 300px; /* Ensure it doesn't get too large */
   margin-bottom: 20px; /* Space between logo and button */
   animation: zoomIn 2s ease-out forwards;
   filter: drop-shadow(rgb(112, 111, 111) 0px 10px 12px) 
@@ -27,7 +28,8 @@
 
 .corner-image {
   position: absolute;
-  width: 400px; /* Adjust size as needed */
+  width: 30vw; /* Adjust size as needed */
+  max-width: 400px; /* Ensure it doesn't get too large */
   height: auto;
 }
 
@@ -79,4 +81,39 @@
 .fade-out {
   opacity: 0;
   visibility: hidden;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .preloader-logo {
+    width: 50vw;
+    max-width: 200px;
+  }
+
+  .corner-image {
+    width: 25vw;
+    max-width: 300px;
+  }
+
+  .enter-home-button {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .preloader-logo {
+    width: 40vw;
+    max-width: 150px;
+  }
+
+  .corner-image {
+    width: 20vw;
+    max-width: 200px;
+  }
+
+  .enter-home-button {
+    font-size: 12px;
+    padding: 6px 12px;
+  }
 }
