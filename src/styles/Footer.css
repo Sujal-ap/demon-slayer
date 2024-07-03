@@ -10,7 +10,7 @@
   left: 0; /* Ensure footer starts from left edge */
   right: 0; /* Ensure footer ends at right edge */
   pointer-events: none; /* Allow mouse events to pass through */
-  opacity: 01; /* Adjust opacity as needed */
+  opacity: 1; /* Adjust opacity as needed */
   transition: height 0.3s ease; /* Smooth transition for height change */
 }
 
@@ -21,4 +21,30 @@
 .expanded {
   height: 400px; /* Expand footer to full viewport height */
   padding: 20px; /* Adjust padding for expanded state */
+}
+
+/* Media query for small screens */
+@media (max-width: 768px) {
+  .App-footer {
+    padding: 50px; /* Adjust padding for smaller screens */
+    height: 150px; /* Adjust height for smaller screens */
+  }
+
+  .expanded {
+    height: 300px; /* Adjust expanded height for smaller screens */
+    padding: 15px; /* Adjust padding for expanded state on smaller screens */
+  }
+}
+
+/* Media query for very small screens */
+@media (max-width: 480px) {
+  .App-footer {
+    padding: 20px; /* Adjust padding for very small screens */
+    height: 100px; /* Adjust height for very small screens */
+  }
+
+  .expanded {
+    height: 200px; /* Adjust expanded height for very small screens */
+    padding: 10px; /* Adjust padding for expanded state on very small screens */
+  }
 }
