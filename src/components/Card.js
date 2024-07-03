@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import '../styles/Card.css';
 
 const characters = [
@@ -68,8 +68,17 @@ const characters = [
 ];
 
 const Card = ({ character }) => {
+  const [isHovered, setIsHovered] = useState(false);
+
+  const handleClick = () => {
+    setIsHovered(!isHovered);
+  };
+
   return (
-    <div className={`card ${character.className}`}>
+    <div
+      className={`card ${character.className} ${isHovered ? 'hover' : ''}`}
+      onClick={handleClick}
+    >
       <div className="colour"></div>
       <div className="card-text">
         <h3>{character.name}</h3>
