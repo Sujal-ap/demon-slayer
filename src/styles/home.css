@@ -17,11 +17,10 @@
 
 .characters-link, .seasons-link {
   font-family: 'Love Light', sans-serif;
-  font-size: 100px; /* Adjust the font size as needed */
+  font-size: 100px; /* Default font size */
   color: #000000; /* Adjust the color as needed */
   text-decoration: none;
   transform: translateY(-170px); 
-   /* Ensure margin applies to top and bottom */
   transition: text-decoration 0.3s ease; /* Add smooth transition */
 }
 
@@ -30,3 +29,17 @@
   text-decoration-thickness: 2px; /* Adjust thickness of underline */
 }
 
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .characters-link, .seasons-link {
+    font-size: 80px; /* Adjust the font size for smaller screens */
+    transform: translateY(-130px);
+  }
+}
+
+@media (max-width: 480px) {
+  .characters-link, .seasons-link {
+    font-size: 60px; /* Adjust the font size for smaller screens */
+    transform: translateY(-100px);
+  }
+}
