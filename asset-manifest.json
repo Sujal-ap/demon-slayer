@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/demon-slayer/static/css/main.e947033b.css",
+    "main.css": "/demon-slayer/static/css/main.031f6083.css",
     "main.js": "/demon-slayer/static/js/main.24a2293c.js",
     "static/js/453.72b83a0f.chunk.js": "/demon-slayer/static/js/453.72b83a0f.chunk.js",
     "static/media/tengen.jpg": "/demon-slayer/static/media/tengen.7b6f81fb3a058aefa1fa.jpg",
@@ -25,12 +25,12 @@
     "static/media/corner-image.png": "/demon-slayer/static/media/corner-image.3589a9c9235df47f82b5.png",
     "static/media/kocho.jpg": "/demon-slayer/static/media/kocho.444cc19bd3877b9b329d.jpg",
     "index.html": "/demon-slayer/index.html",
-    "main.e947033b.css.map": "/demon-slayer/static/css/main.e947033b.css.map",
+    "main.031f6083.css.map": "/demon-slayer/static/css/main.031f6083.css.map",
     "main.24a2293c.js.map": "/demon-slayer/static/js/main.24a2293c.js.map",
     "453.72b83a0f.chunk.js.map": "/demon-slayer/static/js/453.72b83a0f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e947033b.css",
+    "static/css/main.031f6083.css",
     "static/js/main.24a2293c.js"
   ]
 }
