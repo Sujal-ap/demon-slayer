@@ -1,31 +1,56 @@
 @import url('https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&family=Love+Light&display=swap');
 
 .App-header {
-    background-image: url('../images/head_bg.png'); /* Path to your header image */
-    background-size: cover;
-    font-family: "BhuTuka Expanded One";
-    background-position: center;
-    height: 250px; /* Adjust height as needed */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100vw; /* Ensures the header spans the entire viewport width */
-    margin-left: calc(50% - 50vw); /* Center the header horizontally */
-    margin-right: calc(50% - 50vw); /* Center the header horizontally */
-    position: sticky; /* Stick to the top when scrolling */
-    top: -100px; /* Push the header up initially to avoid overlap */
-    z-index: 10; /* Ensure the header is above other content */
-    transition: top 0.3s ease; /* Smooth transition for the header */
-  }
-  
+  background-image: url('../images/head_bg.png'); /* Path to your header image */
+  background-size: cover;
+  font-family: "BhuTuka Expanded One";
+  background-position: center;
+  height: 250px; /* Adjust height as needed */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw; /* Ensures the header spans the entire viewport width */
+  margin-left: calc(50% - 50vw); /* Center the header horizontally */
+  margin-right: calc(50% - 50vw); /* Center the header horizontally */
+  position: sticky; /* Stick to the top when scrolling */
+  top: -100px; /* Push the header up initially to avoid overlap */
+  z-index: 10; /* Ensure the header is above other content */
+  transition: top 0.3s ease; /* Smooth transition for the header */
+}
+
 .App-header h1 {
-    color: #fff;
-    font-size: 2.5rem;
-    text-align: center; /* Center align the text */
-    transform: translateY(-40px); /* Adjust this value to move the h1 up or down */
+  color: #fff;
+  font-size: 2.5rem;
+  text-align: center; /* Center align the text */
+  transform: translateY(-40px); /* Adjust this value to move the h1 up or down */
+}
+
+/* Media query for small screens */
+@media (max-width: 768px) {
+  .App-header {
+    height: 200px; /* Adjust height for smaller screens */
+    top: -50px; /* Adjust the initial top position */
   }
-  
+
+  .App-header h1 {
+    font-size: 2rem; /* Adjust font size for smaller screens */
+    transform: translateY(-30px); /* Adjust the translate value for smaller screens */
+  }
+}
+
+/* Media query for very small screens */
+@media (max-width: 480px) {
+  .App-header {
+    height: 150px; /* Adjust height for very small screens */
+    top: -30px; /* Adjust the initial top position */
+  }
+
+  .App-header h1 {
+    font-size: 1.5rem; /* Adjust font size for very small screens */
+    transform: translateY(-20px); /* Adjust the translate value for very small screens */
+  }
+}
+
 .fixed {
-    top: 0; /* Bring the header to the top when fixed */
-  }
-  
+  top: 0; /* Bring the header to the top when fixed */
+}
