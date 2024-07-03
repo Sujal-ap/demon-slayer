@@ -162,7 +162,7 @@ a {
   }
 
   .card {
-    width: 90%; /* Adjust width for smaller screens */
+    width: 100px; /* Adjust width for smaller screens */
     height: auto; /* Adjust height for smaller screens */
     margin: 1.5rem 0; /* Adjust margin for smaller screens */
   }
@@ -171,7 +171,7 @@ a {
 /* Media query for very small screens */
 @media (max-width: 480px) {
   .card {
-    width: 100%; /* Adjust width for very small screens */
+    width: 80px; /* Adjust width for very small screens */
     height: auto; /* Adjust height for very small screens */
     margin: 1rem 0; /* Adjust margin for very small screens */
   }
