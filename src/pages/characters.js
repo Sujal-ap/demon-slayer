@@ -2,7 +2,7 @@
 import React from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import CardList from '../components/Card';
+import CardList from '../components/CardList.js';
 
 const CharactersPage = () => {
   return (

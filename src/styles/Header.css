@@ -29,7 +29,7 @@
 @media (max-width: 768px) {
   .App-header {
     height: 200px; /* Adjust height for smaller screens */
-    top: -80px; /* Adjust the initial top position */
+    top: -50px; /* Adjust the initial top position */
   }
 
   .App-header h1 {
@@ -42,7 +42,7 @@
 @media (max-width: 480px) {
   .App-header {
     height: 150px; /* Adjust height for very small screens */
-    top: -52px; /* Adjust the initial top position */
+    top: -30px; /* Adjust the initial top position */
   }
 
   .App-header h1 {

@@ -1,0 +1,118 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  overflow: hidden;
+}
+
+.overlay-content {
+  position: relative;
+  width: 80%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.overlay-text {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-align: center;
+  max-width: 80%;
+}
+
+.close-button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: transparent;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #fff;
+}
+
+
+/* Character-specific overlay backgrounds */
+.overlay-content.tanjiro-overlay {
+  background-image: url('../images/overlay/Tanjiro_overlay.jpg');
+}
+
+.overlay-content.nezuko-overlay {
+  background-image: url('../images/overlay/Nezuko_overlay.jpg');
+}
+
+.overlay-content.zenitsu-overlay {
+  background-image: url('../images/overlay/Zenitsu_overlay.jpg');
+}
+
+.overlay-content.inosuke-overlay {
+  background-image: url('../images/overlay/Inosuke_overlay.jpg');
+}
+
+.overlay-content.kanao-overlay {
+  background-image: url('../images/overlay/Kanao_overlay.jpg');
+}
+
+.overlay-content.giyu-overlay {
+  background-image: url('../images/overlay/Giyuu_overlay.jpg');
+}
+
+.overlay-content.shinobu-overlay {
+  background-image: url('../images/overlay/Shinobu_overlay.jpg');
+}
+
+.overlay-content.kyojuro-overlay {
+  background-image: url('../images/overlay/rengoku_overlay.jpg');
+}
+
+.overlay-content.mitsuri-overlay {
+  background-image: url('../images/overlay/Shinobu_overlay.jpg');
+}
+
+.overlay-content.tengen-overlay {
+  background-image: url('../images/overlay/Tengen_overlay.jpg');
+}
+
+.overlay-content.muzan-overlay {
+  background-image: url('../images/overlay/Muzan_overlay.jpg');
+}
+
+.overlay-content.kocho-overlay {
+  background-image: url('../images/overlay/Kanao_overlay.jpg');
+}
+
+.overlay-content.yorichi-overlay {
+  background-image: url('../images/overlay/Yoriichi_overlay.jpg');
+}
+
+.overlay-content.tokito-overlay {
+  background-image: url('../images/overlay/Muichiro_overlay.jpg');
+}
+
+.overlay-content.gyomei-overlay {
+  background-image: url('../images/overlay/Gyomei_overlay.jpg');
+}
+
+.overlay-content.sanemi-overlay {
+  background-image: url('../images/overlay/Sanemi_overlay.jpg');
+}
+
+/* Add other overlay character images similarly */
