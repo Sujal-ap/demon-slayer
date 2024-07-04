@@ -461,3 +461,26 @@ a {
   background: rgb(67, 87, 102);
   background: linear-gradient(125deg, rgba(68, 87, 102, 1) 40%, rgba(60, 29, 40, 1) 66%);
 }
+
+.mitsuri {
+  background-image: url('../images/characters//Mitsuri.jpg');
+}
+
+.mitsuri.colour {
+  background: rgb(87, 121, 130);
+  background: linear-gradient(125deg, rgba(87, 121, 130, 1) 28%, rgba(172, 24, 69, 1) 89%);
+}
+
+.mitsuri.colour::before {
+  background: rgba(57, 104, 128, 1);
+}
+
+.mitsuri.colour-bottom {
+  background: rgba(68, 87, 102, 1);
+}
+
+.mitsuri.colour-bottom::before {
+  background: rgb(67, 87, 102);
+  background: linear-gradient(125deg, rgba(68, 87, 102, 1) 40%, rgba(60, 29, 40, 1) 66%);
+}
+
