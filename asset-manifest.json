@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/demon-slayer/static/css/main.2af36d00.css",
-    "main.js": "/demon-slayer/static/js/main.9138df56.js",
+    "main.css": "/demon-slayer/static/css/main.9593f3d0.css",
+    "main.js": "/demon-slayer/static/js/main.c70452a9.js",
     "static/js/453.72b83a0f.chunk.js": "/demon-slayer/static/js/453.72b83a0f.chunk.js",
     "static/media/tengen.jpg": "/demon-slayer/static/media/tengen.7b6f81fb3a058aefa1fa.jpg",
     "static/media/rengoku.jpg": "/demon-slayer/static/media/rengoku.74f58d342bba78bfc1f1.jpg",
@@ -44,12 +44,12 @@
     "static/media/corner-image.png": "/demon-slayer/static/media/corner-image.3589a9c9235df47f82b5.png",
     "static/media/kocho.jpg": "/demon-slayer/static/media/kocho.444cc19bd3877b9b329d.jpg",
     "index.html": "/demon-slayer/index.html",
-    "main.2af36d00.css.map": "/demon-slayer/static/css/main.2af36d00.css.map",
-    "main.9138df56.js.map": "/demon-slayer/static/js/main.9138df56.js.map",
+    "main.9593f3d0.css.map": "/demon-slayer/static/css/main.9593f3d0.css.map",
+    "main.c70452a9.js.map": "/demon-slayer/static/js/main.c70452a9.js.map",
     "453.72b83a0f.chunk.js.map": "/demon-slayer/static/js/453.72b83a0f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2af36d00.css",
-    "static/js/main.9138df56.js"
+    "static/css/main.9593f3d0.css",
+    "static/js/main.c70452a9.js"
   ]
 }
