@@ -12,8 +12,37 @@
   overflow: hidden;
 }
 
+
+.blueBg {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 999;
+  transition: opacity .3s ease;
+  background-image: url('../images/blue_bg.jpg');
+  opacity: 0;
+  animation: ani .7s ease; /* Apply the animation */
+}
+
+.blueBg.active {
+  opacity: 1;
+}
+@keyframes ani {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+
 .overlay-content {
   position: relative;
+  z-index: 1001; /* Ensure this is higher than blueBg */
   width: 100%;
   height: 100%;
   display: flex;
@@ -73,9 +102,6 @@
     font-size: 14px;
   }
 }
-
-
-
 /* Character-specific overlay backgrounds */
 .overlay-content.tanjiro-overlay {
   background-image: url('../images/overlay/Tanjiro_overlay.jpg');
@@ -120,7 +146,6 @@
 .overlay-content.muzan-overlay {
   background-image: url('../images/overlay/Muzan_overlay.jpg');
 }
-
 
 .overlay-content.yorichi-overlay {
   background-image: url('../images/overlay/Yoriichi_overlay.jpg');
