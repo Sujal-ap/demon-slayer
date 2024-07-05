@@ -101,11 +101,11 @@
   background-image: url('../images/overlay/Giyuu_overlay.jpg');
 }
 
-.overlay-content.shinobu-overlay {
+.overlay-content.kocho-overlay {
   background-image: url('../images/overlay/Shinobu_overlay.jpg');
 }
 
-.overlay-content.kyojuro-overlay {
+.overlay-content.rengoku-overlay {
   background-image: url('../images/overlay/rengoku_overlay.jpg');
 }
 
@@ -121,9 +121,6 @@
   background-image: url('../images/overlay/Muzan_overlay.jpg');
 }
 
-.overlay-content.kocho-overlay {
-  background-image: url('../images/overlay/Kanao_overlay.jpg');
-}
 
 .overlay-content.yorichi-overlay {
   background-image: url('../images/overlay/Yoriichi_overlay.jpg');

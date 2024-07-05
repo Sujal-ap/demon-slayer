@@ -58,7 +58,7 @@ const characters = [
     cardDescription: "The Flame Hashira...",
     overlayDescription: "Kyojuro Rengoku is a passionate and enthusiastic warrior who values human life and fights with powerful flame-based techniques...",
     className: "rengoku",
-    overlayClass: "kyojuro-overlay",
+    
   },
   {
     name: "Mitsuri Kanroji",
