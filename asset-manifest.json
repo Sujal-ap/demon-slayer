@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/demon-slayer/static/css/main.9593f3d0.css",
-    "main.js": "/demon-slayer/static/js/main.c70452a9.js",
+    "main.css": "/demon-slayer/static/css/main.f314a0a9.css",
+    "main.js": "/demon-slayer/static/js/main.5725cfc1.js",
     "static/js/453.72b83a0f.chunk.js": "/demon-slayer/static/js/453.72b83a0f.chunk.js",
     "static/media/tengen.jpg": "/demon-slayer/static/media/tengen.7b6f81fb3a058aefa1fa.jpg",
     "static/media/rengoku.jpg": "/demon-slayer/static/media/rengoku.74f58d342bba78bfc1f1.jpg",
@@ -14,6 +14,7 @@
     "static/media/tanjiro.jpg": "/demon-slayer/static/media/tanjiro.f5afa29aa3ea377146c8.jpg",
     "static/media/nezuko.jpg": "/demon-slayer/static/media/nezuko.0bdab2faed8a98f06a92.jpg",
     "static/media/foot_bg.webp": "/demon-slayer/static/media/foot_bg.bd34b2f85c2efac45712.webp",
+    "static/media/blue_bg.jpg": "/demon-slayer/static/media/blue_bg.bb79ba52637909719453.jpg",
     "static/media/rengoku_overlay.jpg": "/demon-slayer/static/media/rengoku_overlay.e1543a0f8ac94cf78436.jpg",
     "static/media/Shinobu_overlay.jpg": "/demon-slayer/static/media/Shinobu_overlay.c8b3bf4a2d297dda321c.jpg",
     "static/media/Sanemi_overlay.jpg": "/demon-slayer/static/media/Sanemi_overlay.33fb3f094299eff6d23a.jpg",
@@ -44,12 +45,12 @@
     "static/media/corner-image.png": "/demon-slayer/static/media/corner-image.3589a9c9235df47f82b5.png",
     "static/media/kocho.jpg": "/demon-slayer/static/media/kocho.444cc19bd3877b9b329d.jpg",
     "index.html": "/demon-slayer/index.html",
-    "main.9593f3d0.css.map": "/demon-slayer/static/css/main.9593f3d0.css.map",
-    "main.c70452a9.js.map": "/demon-slayer/static/js/main.c70452a9.js.map",
+    "main.f314a0a9.css.map": "/demon-slayer/static/css/main.f314a0a9.css.map",
+    "main.5725cfc1.js.map": "/demon-slayer/static/js/main.5725cfc1.js.map",
     "453.72b83a0f.chunk.js.map": "/demon-slayer/static/js/453.72b83a0f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9593f3d0.css",
-    "static/js/main.c70452a9.js"
+    "static/css/main.f314a0a9.css",
+    "static/js/main.5725cfc1.js"
   ]
 }
